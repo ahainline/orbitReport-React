@@ -5,7 +5,7 @@ const Buttons = ({filterByType, setSat, displaySats}) => {
     <div>
       {displaySats.map((sat, id) => {
         return (
-          <button onClick={() => filterByType(sat)} key={id}>
+        <button onClick={() => filterByType(sat)} key={id}>
             {sat} Orbit
           </button>
         )
