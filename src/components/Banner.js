@@ -1,3 +1,5 @@
+import styles from './styling.css';
+
 const Banner = () => {
     return (<div>
         <header>
